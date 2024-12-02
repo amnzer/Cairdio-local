@@ -1,0 +1,8 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../../program_seldom_use_disk_E/AMD_xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_memory.sv,systemverilog,xpm,../../../../../../../../../program_seldom_use_disk_E/AMD_xilinx/Vivado/2023.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../program_seldom_use_disk_E/AMD_xilinx/Vivado/2023.1/data/ip/xpm/xpm_VCOMP.vhd,
+xbip_utils_v3_0_vh_rfs.vhd,vhdl,xbip_utils_v3_0_10,../../../ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd,
+axi_utils_v2_0_vh_rfs.vhd,vhdl,axi_utils_v2_0_6,../../../ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd,
+cic_compiler_v4_0_vh_rfs.vhd,vhdl,cic_compiler_v4_0_16,../../../ipstatic/hdl/cic_compiler_v4_0_vh_rfs.vhd,
+cic_compiler_0.vhd,vhdl,xil_defaultlib,../../../../eth_pdm_mic.gen/sources_1/ip/cic_compiler_0/sim/cic_compiler_0.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

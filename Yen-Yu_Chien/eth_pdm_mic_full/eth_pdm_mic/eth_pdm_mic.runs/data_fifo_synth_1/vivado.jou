@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Oct 23 15:15:52 2024
+# Process ID: 12956
+# Current directory: E:/Rice_U_folder/2024Fall/capstone/eth_pdm_mic_full/eth_pdm_mic/eth_pdm_mic.runs/data_fifo_synth_1
+# Command line: vivado.exe -log data_fifo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source data_fifo.tcl
+# Log file: E:/Rice_U_folder/2024Fall/capstone/eth_pdm_mic_full/eth_pdm_mic/eth_pdm_mic.runs/data_fifo_synth_1/data_fifo.vds
+# Journal file: E:/Rice_U_folder/2024Fall/capstone/eth_pdm_mic_full/eth_pdm_mic/eth_pdm_mic.runs/data_fifo_synth_1\vivado.jou
+# Running On: LAPTOP-1Q942CSO, OS: Windows, CPU Frequency: 1896 MHz, CPU Physical cores: 16, Host memory: 16487 MB
+#-----------------------------------------------------------
+source data_fifo.tcl -notrace
