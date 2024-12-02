@@ -1,6 +1,6 @@
 # Noise Reduction and Signal Classification Framework
 
-**Note:** This README provides an overview of the project. For detailed information, refer to the project report and code documentation.
+**Note:** This README provides an overview of the project. For detailed information, refer to the project report.
 
 ---
 
