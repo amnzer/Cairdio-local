@@ -9,11 +9,11 @@ A basic setting for my FPGA choice ARTY S7-50 can be seen [here](https://communi
 By following this guide, you can set up 
 
 ## Hardware/Software setting
-FPGA: ARTY S7-50
-Vivado: 2024.1
-Vitis: 2024.1
-Serial Terminal Program: Tera Term 5
-PC: Window11
+- FPGA: ARTY S7-50
+* Vivado: 2024.1
++ Vitis: 2024.1
+- Serial Terminal Program: Tera Term 5
+* PC: Window11
 
 ## Results
 ### LED&Buttom control test
