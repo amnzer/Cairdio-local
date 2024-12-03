@@ -1,1 +1,2 @@
+# ENABLE FreeRTOS & UART and CONFIGURE On-Board DDR RAM with FreeRTOS
 
