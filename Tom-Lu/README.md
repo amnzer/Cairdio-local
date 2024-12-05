@@ -21,8 +21,10 @@ Here is a general overview of the block diagram I built:
 * PC: Window11
 
 ## Results
+After creating the FreeRTOS block design for the ARTY S7-50 and generating the bitstream, we can create our FreeRTOS platform in the Vitis IDE (remember to select FreeRTOS in the OS system choices). Then, we can create an application and write C code to control our FPGA. Detail of my C code can be seen in 
+
 ### LED&Buttom control test
-xx
+Here is my code to control the LED and Buttom interface on FPGA through 
 
 ### UART control test
 xx
