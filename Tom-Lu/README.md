@@ -21,10 +21,24 @@ Here is a general overview of the block diagram I built:
 * PC: Window11
 
 ## Results
-After creating the FreeRTOS block design for the ARTY S7-50 and generating the bitstream, we can create our FreeRTOS platform in the Vitis IDE (remember to select FreeRTOS in the OS system choices). Then, we can create an application and write C code to control our FPGA. Detail of my C code can be seen in 
+After creating the FreeRTOS block design for the ARTY S7-50 and generating the bitstream, we can create our FreeRTOS platform in the Vitis IDE (remember to select FreeRTOS in the OS system choices). Then, we can create an application and write C code to control our FPGA. Details of my C code can be seen in the Vitis application folder.
 
 ### LED&Buttom control test
-Here is my code to control the LED and Buttom interface on FPGA through 
+Here is my code to control the LED and Buttom. 
+```
+data = XGpio_DiscreteRead(&btn_device, BTN_CHANNEL);
+data &= BTN_MASK;
+
+if (data != 0) {
+ data = LED_MASK & data;
+} else {
+  data = 0;
+}
+XGpio_DiscreteWrite(&led_device, LED_CHANNEL, data);
+```
+This code snippet is designed to interact with GPIO devices, specifically for reading button inputs and controlling LED outputs on a hardware board. Initially, it reads the state of buttons connected to a specific channel (BTN_CHANNEL) using the XGpio_DiscreteRead function, which fetches the button states and stores them in the data variable. The button states are then filtered using a bitmask (BTN_MASK) to ensure only relevant bits are considered, effectively isolating the button presses of interest. If any button is pressed (data != 0), the code maps the button state directly to corresponding LEDs using another bitmask (LED_MASK). This ensures that only certain LEDs corresponding to the pressed buttons are activated. If no buttons are pressed (data == 0), all LEDs are turned off. Finally, the result is written to the LED device using XGpio_DiscreteWrite, updating the LEDs to reflect the state of the buttons.
+
+![Freertos_blinking_LED](https://github.com/user-attachments/assets/64dc7798-2d4c-453e-95a7-038ab41c1b63)
 
 ### UART control test
 xx
