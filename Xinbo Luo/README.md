@@ -54,9 +54,7 @@ This project focuses on reducing noise from audio recordings and classifying sig
   1. Extract spectrogram images from audio recordings.
   2. Train a Convolutional Neural Network (CNN) on these images using binary classification.
   3. Evaluate performance using ROC-AUC and confusion matrix.
-- **Outputs**:
-  - Classification accuracy and AUC metrics.
-  - Confusion matrix visualizations.
+
 
 ### EfficientNet
 - **Purpose**: Use EfficientNetB0 for lightweight and efficient classification.
@@ -64,9 +62,7 @@ This project focuses on reducing noise from audio recordings and classifying sig
   1. Load pre-trained EfficientNetB0 with frozen weights from ImageNet.
   2. Add custom dense layers for binary classification.
   3. Train using augmented spectrogram data with techniques like rotation, scaling, and flipping.
-- **Outputs**:
-  - Validation accuracy: 91.46%.
-  - ROC-AUC: 0.91.
+
 
 ### ResNet and RCN
 - **Purpose**: Use ResNet-50 and RCN (ResNet with modifications) for improved classification.
@@ -74,9 +70,6 @@ This project focuses on reducing noise from audio recordings and classifying sig
   1. Load ResNet-50 and fine-tune selected layers.
   2. Train with spectrograms using similar augmentation techniques.
   3. Evaluate performance with metrics similar to EfficientNet.
-- **Outputs**:
-  - Classification accuracy and AUC metrics comparable to EfficientNet.
-  - Fine-tuned model ready for deployment.
 
 ---
 
